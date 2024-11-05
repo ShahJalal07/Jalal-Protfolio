@@ -3,4 +3,18 @@
 /* ============== Google Fonts End =============== */
 
 /* ============Variables Start=============== */
+:root {
+  /* ==============Colors Start=============== */
+  /* Color mode HSL (Hue, Saturation, Lightness) */
+  --first-color: hsl(353, 100%, 65%);
+  --title-color: hsl(244, 24%, 26%);
+  --text-color: hsl(244, 16%, 43%);
+  --body-color: hsl(258, 60%, 98%);
+  --container-color: hsl(0, 0%, 100%);
+  /* ==============Colors End=============== */
+
+  /* ==============Font and typography Start=============== */
+
+  /* ==============Font and typography End=============== */
+}
 /* ============Variables End=============== */
