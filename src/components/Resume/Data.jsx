@@ -1,0 +1,51 @@
+const Data = [
+  {
+    id: 1,
+    catagary: "Education",
+    icon: "icon-graduation",
+    year: 2017,
+    title: "Master in Computer Engineering",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+  },
+  {
+    id: 2,
+    catagary: "Education",
+    icon: "icon-graduation",
+    year: 2015,
+    title: "Bachelor in Computer Engineering",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+  },
+  {
+    id: 3,
+    catagary: "Experience",
+    icon: "icon-briefcase",
+    year: 2017,
+    title: "UI Designer",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+  },
+  {
+    id: 4,
+    catagary: "Experience",
+    icon: "icon-briefcase",
+    year: 2016,
+    title: "UI Designer",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+  },
+  {
+    id: 5,
+    catagary: "Experience",
+    icon: "icon-briefcase",
+    year: 2015,
+    title: "UI Designer",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+  },
+  {
+    id: 6,
+    catagary: "Experience",
+    icon: "icon-briefcase",
+    year: 2014,
+    title: "UI Designer",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.",
+  },
+];
+export default Data;
