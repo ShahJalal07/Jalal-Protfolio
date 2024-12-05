@@ -7,7 +7,7 @@ import Resume from "./components/Resume/Resume";
 import Protfolio from "./components/Protfolio/Protfolio";
 import About from "./components/About/About";
 import Service from "./components/Service/Service";
-import Contract from "./components/Contract/Contract";
+import Contact from "./components/Contact/Contact";
 import Pricing from "./components/Pricing/Pricing";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Blogs from "./components/Blogs/Blogs";
@@ -25,7 +25,7 @@ function App() {
         <Pricing />
         <Testimonial />
         <Blogs />
-        <Contract />
+        <Contact />
       </main>
     </>
   );
