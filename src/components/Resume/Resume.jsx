@@ -1,6 +1,7 @@
 import React from "react";
 import "./resume.css";
 import Data from "./Data";
+import Card from "./Card";
 
 const Resume = () => {
   return (
@@ -9,7 +10,7 @@ const Resume = () => {
       <div className="resume_container grid">
         <div className="timeline grid">
           {Data.map((val, id) => {
-            if (val.category === "education") {
+            if (val.catagary === "Education") {
               return (
                 <Card
                   key={id}
@@ -24,10 +25,10 @@ const Resume = () => {
         </div>
         <div className="timeline grid">
           {Data.map((val, index) => {
-            if (val.category === "experience") {
+            if (val.catagary === "Experience") {
               return (
                 <Card
-                  key={id}
+                  key={index}
                   icon={val.icon}
                   year={val.year}
                   title={val.title}
