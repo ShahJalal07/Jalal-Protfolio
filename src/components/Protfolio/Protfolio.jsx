@@ -10,7 +10,9 @@ const Protfolio = () => {
       <h2 className="section_title">Recent Works</h2>
       <div className="work_filters">
         <span className="work_item">Everything</span>
-        <span className="work_item">Creative</span>
+        <span onClick={() => filterItem("Creative")} className="work_item">
+          Creative
+        </span>
         <span className="work_item">Art</span>
         <span className="work_item">Design</span>
         <span className="work_item">Branding</span>
